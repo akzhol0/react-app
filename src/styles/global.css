@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: sans-serif;
+  background: #000;
+  color: #fff;
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App {
+  width: 800px;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+}
+
+.post {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border: 3px solid teal;
+  margin: 15px 0 0 0;
+}
+
+.pag-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 0;
+}
+
+.pag-wrapper p {
+  cursor: pointer;
+  padding: 4px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.active-pagination {
+  border: 2px solid teal;
+}
+
+.navbar {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: gray;
+}
+
+.navbar-items a {
+  padding: 0 15px;
+  color: #fff;
+}
+
+.active {
+  background: black;
+  border-radius: 10px;
+}
+
+.post-wrapper {
+  max-width: 800px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px 0 0 0;
+  gap: 10px;
+}
+
+.comm-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.comm {
+  width: 800px;
+  border: 2px solid teal;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.comm p {
+  margin: 5px 0 0 0;
+}
+
+.text-wrapper {
+  background: gray;
+}

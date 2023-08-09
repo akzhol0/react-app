@@ -1,0 +1,21 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.loader {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 4px dashed teal;
+    margin: 50px 0 0 0;
+    animation: rotate 5s infinite linear;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    } to {
+        transform: rotate(360deg);
+    }
+}
